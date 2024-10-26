@@ -6,7 +6,7 @@ st.title('Visualización de Anuncios de Venta de Coches')
 st.write("Explora el conjunto de datos de vehículos de segunda mano.")
 
 try:
-    car_data = pd.read_csv('/Users/tomaster/vehicles_env/vehicles_us - vehicles_us.csv') # leer los datos
+    car_data = pd.read_csv('vehicles_us - vehicles_us.csv') # leer los datos
     st.success("Datos cargados correctamente.")
 except FileNotFoundError:
     st.error("Archivo no encontrado. Por favor, verifica la ubicación y el nombre del archivo.")
