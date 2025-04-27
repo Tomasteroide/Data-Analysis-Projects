@@ -83,7 +83,6 @@ plot_distribution(stats.hypergeom, params={"M":20, "n":7, "N":12}, discrete=True
 
 # -----------------
 # EJEMPLOS DE USO DE PDF, CDF, PPF y RVS
-# -----------------
 
 # Normal estándar
 normal = stats.norm(loc=0, scale=1)
